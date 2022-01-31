@@ -1,7 +1,7 @@
 ---
   - name: Test playbook
     become: yes
-    hosts: "dr_28_MQ"
+    hosts: dr_28_MQ
     tasks:
     - name: Print hello
       debug:
